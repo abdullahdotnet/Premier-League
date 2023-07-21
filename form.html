@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+<title>Registration Form</title>
+<link rel="stylesheet" href="css/form.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="index.html"><img src="images/logo.png" width="50" height="50" >Premier League</a>
+        
+        </div>
+    </div> 
+<div class="signup-form">
+    <form >
+		<h2>Register</h2>
+		<p class="hint-text">Become premium member to stream your favourite matches live</p>
+        <div class="form-group">
+			<div class="row">
+				<div class="col"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
+				<div class="col"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
+			</div>        	
+        </div>
+        <div class="form-group">
+        	<input type="email" class="form-control" name="email" placeholder="Email" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
+        </div>        
+        <div class="form-group">
+			<label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+		</div>
+		<div class="form-group">
+           <a href="index.html"> <button type="submit" class="btn btn-success btn-lg btn-block">Register Now</button>
+           </a>
+        </div>
+
+    </form>
+	<div class="text-center">Already have an account? <a href="#">Sign in</a></div>
+</div>
+</body>
+</html>

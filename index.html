@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            
+            <a class="logo" href="index.html"><img src="images/logo.png" width="50" height="50" >Premier League</a>
+            <img id="moibile-cta" class="mobile-menu" src="images/menu.svg" alt="Open navigation">
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/rodentia-icons_x.svg" width="20" height="20" alt="">
+
+                <Ul class="primary-nav">
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="form.html">Become Premium</a></li>
+                    <li><a href="Standings.html">Standings</a></li>
+                    <li><a href="scorecard.html">Live score</a></li>
+                </Ul>
+            </nav>
+           
+        </div>
+    </div>
+    
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">Keep up with Premiere League</p>
+                <h1>YOUR HOME FOR ALL PREMIERE LEAGUE UPDATES</h1>
+
+                <div class="hero-cta">
+                    <a href="#" class="primary-cta" title="See Points Table">Standings</a>
+                
+                        <img src="images/icons8-scoreboard-64.png" >
+
+                    
+                    
+                    <a href="#" class="live-score" title="Check Live score">
+                        Live Score
+                        
+                    </a>
+                </div>
+            <img src="images/skysports-grpahic-graphic-premier-league_5415970.png" width="450" height="300" class="hero-img" alt="">    
+        </div>
+    </section>
+    <section class="fixtures-section">
+        <div class="container">
+        <h1>Today's Fixtures</h1>
+        
+            <Ul>
+                <li>Manchester United vs Chelsea</li>
+                <li>Liverpool vs Manchester City</li>
+                <li>Leeds vs Everton</li>
+            </Ul>
+        </div>
+    </section>
+    <section class="topscorer-section">
+        <h1>Top goal scorers of season</h1>
+        <div class="container1">
+            
+            <Ul>
+                <li>
+                    <img src="images/0_salahjpeg.jpg"  alt="salah image">
+                    <blockquote>Mohamed Salah has been handed a boost in his quest to win the Premier League golden boot after his main rival for the accolade Son Heung-min insisted that he isn't focused on individual awards.
+                        Liverpool star Salah currently leads the way in the Premier League scoring charts with 22 goals, but Son, who is in fantastic form, is just one goal behind.
+
+                        
+                    </blockquote>
+                </li>
+            </Ul>
+            <Ul>
+                <li>
+                    <img src="images/163347.jpg" alt="son image">
+                    <blockquote>Heung-min Son enjoyed his best ever season from a goals perspective with Tottenham last term, scoring 17 goals in 37 Premier League appearances. 
+                        The forward has scored double figures in each of the last five campaigns and could be a good bet to challenge for the Golden Boot as he aims to pick up the slack from Harry Kane.
+                    </blockquote>
+                </li>
+            </Ul>
+            <Ul>
+                <li>
+                    <img src="images/manchester-united-cristiano-ronaldo-16-october-2021.jpg"  alt="ronaldo image">
+                    <blockquote>Cristiano Ronaldo finished last season as the top scorer in Serie A with 29 goals in 33 appearances and dispelled any doubts that he might slow down on his return to Old Trafford with two goals in his first game back.
+                         The Manchester United faithful will be hopeful that the Portugal phenomenon can help clinch a Champions League spot this term.
+                    </blockquote>
+                </li>
+            </Ul>
+        </div> 
+        
+    </section>
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+            nav = document.querySelector('nav');
+            mobileBtnExit = document.getElementById('mobile-exit');
+
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })  
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        }) 
+
+
+    </script>
+</body>
+</html>
